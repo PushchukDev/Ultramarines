@@ -478,18 +478,18 @@ body {
 }
 
 .card__picture--1 {
-  background-image: url(/img/marneus.jpg), -webkit-gradient(linear, left top, right bottom, from(#8ba1f9), to(#0c3aec));
-  background-image: url(/img/marneus.jpg), linear-gradient(to right bottom, #8ba1f9, #0c3aec);
+  background-image: url(../img/marneus.jpg), -webkit-gradient(linear, left top, right bottom, from(#8ba1f9), to(#0c3aec));
+  background-image: url(../img/marneus.jpg), linear-gradient(to right bottom, #8ba1f9, #0c3aec);
 }
 
 .card__picture--2 {
-  background-image: url(/img/roboutte.jpg), -webkit-gradient(linear, left top, right bottom, from(#8ba1f9), to(#0c3aec));
-  background-image: url(/img/roboutte.jpg), linear-gradient(to right bottom, #8ba1f9, #0c3aec);
+  background-image: url(../img/roboutte.jpg), -webkit-gradient(linear, left top, right bottom, from(#8ba1f9), to(#0c3aec));
+  background-image: url(../img/roboutte.jpg), linear-gradient(to right bottom, #8ba1f9, #0c3aec);
 }
 
 .card__picture--3 {
-  background-image: url(/img/tigurius.jpg), -webkit-gradient(linear, left top, right bottom, from(#8ba1f9), to(#0c3aec));
-  background-image: url(/img/tigurius.jpg), linear-gradient(to right bottom, #8ba1f9, #0c3aec);
+  background-image: url(../img/tigurius.jpg), -webkit-gradient(linear, left top, right bottom, from(#8ba1f9), to(#0c3aec));
+  background-image: url(../img/tigurius.jpg), linear-gradient(to right bottom, #8ba1f9, #0c3aec);
 }
 
 .card__heading {
@@ -594,15 +594,15 @@ body {
 }
 
 .card__model--1 {
-  background-image: url(/img/marneus_model_b.png);
+  background-image: url(../img/marneus_model_b.png);
 }
 
 .card__model--2 {
-  background-image: url(/img/roboutte_model.png);
+  background-image: url(../img/roboutte_model.png);
 }
 
 .card__model--3 {
-  background-image: url(/img/tigurius_model.png);
+  background-image: url(../img/tigurius_model.png);
 }
 
 .card .phrase-box {
@@ -1491,7 +1491,7 @@ body {
 }
 
 .news {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(/img/squa.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/squa.jpg);
   background-size: 100%;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -1500,15 +1500,15 @@ body {
 
 @media (max-width: 75em) {
   .news {
-    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(/img/squa.jpg);
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/squa.jpg);
     background-size: cover;
   }
 }
 
 @media (max-width: 56.25em) {
   .news {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url(/img/squa.jpg);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(/img/squa.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url(../img/squa.jpg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/squa.jpg);
   }
 }
 
