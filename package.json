@@ -1,0 +1,14 @@
+{
+  "name": "ultramarines",
+  "version": "1.0.0",
+  "description": "xD",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Vadym Pushchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/warhammer40k.css" />
+    <link rel="stylesheet" href="sass/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Warhammer 40k Project</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#section-about" class="navigation__link"
+              ><span>02</span>About</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-cards" class="navigation__link"
+              ><span>03</span>Characters</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-feedbacks" class="navigation__link"
+              ><span>04</span>Feedback</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-news" class="navigation__link"
+              ><span>05</span>Subscribe for updates</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img
+          src="./img/pngwing_white.png"
+          alt="ultramarines_logo"
+          class="header__logo"
+        />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Ultramarines</span>
+          <span class="heading-primary--sub"
+            >"Whilst we draw breath, we stand. Whilst we stand, we fight. Whilst
+            we fight, we prevail. Nothing shall stay our wrath."</span
+          >
+        </h1>
+        <a href="#section-cards" class="btn btn--white btn--animated"
+          >Discover</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Explore lore of Ultramarines</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Who are the Ultramarines in warhammer 40k universe?
+            </h3>
+            <p class="paragraph">
+              The Ultramarines are considered one of the strongest and most
+              honoured of all the Space Marine Chapters in the Imperium of Man,
+              and were responsible for almost single-handedly holding the
+              Imperium together after the Horus Heresy.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloribus, maiores sint amet dignissimos beatae aut
+              necessitatibus.
+            </p>
+            <a
+              href="https://warhammer40k.fandom.com/wiki/Ultramarines"
+              target="_blank"
+              class="btn-text"
+              >Learn more &rarr;</a
+            >
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="img/ultramarine_1.png"
+                alt="img1"
+                class="composition__photo composition__photo--p1"
+              /><img
+                src="img/ultramarine_5.png"
+                alt="img2"
+                class="composition__photo composition__photo--p2"
+              /><img
+                src="img/ultramarine_1b.png"
+                alt="img3"
+                class="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon wh40k wh40k-autaal"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">World</h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                nobis iste maxime perferendis veritatis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon wh40k wh40k-HQ"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Units</h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                nobis iste maxime perferendis veritatis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon wh40k wh40k-elites"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Strategies</h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                nobis iste maxime perferendis veritatis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon wh40k wh40k-lord-of-war"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Abilities</h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                nobis iste maxime perferendis veritatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-cards" id="section-cards">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Explore Characters</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Marneus Calgar</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <h3 class="card__details-heading">Character Stats</h3>
+                  <div class="stats-row stats-row--1">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">M</h3>
+                        <p class="stat-box__data">6"</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">WS</h3>
+                        <p class="stat-box__data">2+</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">BS</h3>
+                        <p class="stat-box__data">2+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-row stats-row--2">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">S</h3>
+                        <p class="stat-box__data">4</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">T</h3>
+                        <p class="stat-box__data">5</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">W</h3>
+                        <p class="stat-box__data">8</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-row stats-row--3">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">A</h3>
+                        <p class="stat-box__data">6</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">Ld</h3>
+                        <p class="stat-box__data">9</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">Sv</h3>
+                        <p class="stat-box__data">2+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card__text">
+                    <span class="card__text-name">Marneus Calgar</span> is a
+                    single model equipped with: the
+                    <span class="card__weapon--primary"
+                      >Gauntlets of Ultramar</span
+                    >. Only one model allowed.
+                  </div>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__model card__model--1">&nbsp;</div>
+                <div class="phrase-box">
+                  <p class="phrase">
+                    "We follow in the footsteps of Guilliman. As it is written
+                    in the Codex, so shall it be."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Roboute Guilliman</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <h3 class="card__details-heading">Character Stats</h3>
+                  <div class="stats-row stats-row--1">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">M</h3>
+                        <p class="stat-box__data">8"</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">WS</h3>
+                        <p class="stat-box__data">2+</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">BS</h3>
+                        <p class="stat-box__data">2+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-row stats-row--2">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">S</h3>
+                        <p class="stat-box__data">6</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">T</h3>
+                        <p class="stat-box__data">6</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">W</h3>
+                        <p class="stat-box__data">9</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-row stats-row--3">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">A</h3>
+                        <p class="stat-box__data">6</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">Ld</h3>
+                        <p class="stat-box__data">10</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">Sv</h3>
+                        <p class="stat-box__data">2+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card__text">
+                    <span class="card__text-name">Roboute Guilliman</span> is a
+                    single model equipped with: the
+                    <span class="card__weapon--primary">Emperor's Sword</span>;
+                    the
+                    <span class="card__weapon--secondary">Hand of Dominion</span
+                    >. Only one model allowed.
+                  </div>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__model card__model--2">&nbsp;</div>
+                <!-- <div class="phrase-box">
+                  <p class="phrase">
+                    "The warrior who acts out of honour cannot fail. His duty is
+                    honour itself. Even his death - if it is honourable - is a
+                    reward and can be no failure, for it has come through duty.
+                    Seek honour as you act, therefore, and you will know no
+                    fear."
+                  </p>
+                </div> -->
+                <div class="u-center-text u-margin-top-big">
+                  <a href="#popup" class="btn btn--white">More Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Chief Librarian Tigurius</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <h3 class="card__details-heading">Character Stats</h3>
+                  <div class="stats-row stats-row--1">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">M</h3>
+                        <p class="stat-box__data">6"</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">WS</h3>
+                        <p class="stat-box__data">3+</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">BS</h3>
+                        <p class="stat-box__data">3+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-row stats-row--2">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">S</h3>
+                        <p class="stat-box__data">4</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">T</h3>
+                        <p class="stat-box__data">4</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">W</h3>
+                        <p class="stat-box__data">5</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-row stats-row--3">
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">A</h3>
+                        <p class="stat-box__data">4</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">Ld</h3>
+                        <p class="stat-box__data">9</p>
+                      </div>
+                    </div>
+                    <div class="col-1-of-3">
+                      <div class="stat-box">
+                        <h3 class="stat-box__stat">Sv</h3>
+                        <p class="stat-box__data">3+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card__text">
+                    <span class="card__text-name"
+                      >Chief Librarian Tigurius</span
+                    >
+                    is a single model equipped with:
+                    <span class="card__weapon--secondary">bolt pistol</span>;
+                    the
+                    <span class="card__weapon--primary">Rod of Tigurius</span>;
+                    <span class="card__weapon--secondary">grag grenades</span>;
+                    <span class="card__weapon--secondary">krak grenades</span>.
+                    Only one model allowed.
+                  </div>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__model card__model--3">&nbsp;</div>
+                <div class="phrase-box">
+                  <p class="phrase">
+                    "Each path must be chosen with care, lest disaster swallow
+                    us whole."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--blue">Discover more characters</a>
+        </div>
+      </section>
+
+      <section class="section-feedbacks" id="section-feedbacks">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source
+              src="../img/videos/ultramarines_parade.mp4"
+              type="video/mp4"
+            />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Imperium Feedback</h2>
+        </div>
+
+        <div class="row">
+          <div class="feedback">
+            <figure class="feedback__shape">
+              <img src="img/emperor.jpg" alt="test" class="feedback__img" />
+              <figcaption class="feedback__caption">
+                Emperor of Mankind
+              </figcaption>
+            </figure>
+            <div class="feedback__text">
+              <h3 class="heading-tertiary u-margin-bottom-tiny">
+                I love Ultramarines
+              </h3>
+              <p class="paragraph">
+                The universe has many horrors yet to throw at us. This is not
+                the end of our struggle. This is just the beginning of our
+                crusade to save Humanity. Be faithful! Be strong! Be vigilant!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="feedback">
+            <figure class="feedback__shape">
+              <img src="img/cato3.jpg" alt="test" class="feedback__img" />
+              <figcaption class="feedback__caption">Cato Sicarius</figcaption>
+            </figure>
+            <div class="feedback__text">
+              <h3 class="heading-tertiary u-margin-bottom-tiny">
+                I am still CATO SICARIUS!!!!
+              </h3>
+              <p class="paragraph">
+                The death of others is a small price to pay, as they fall,
+                performing their duties in order to achieve glory for the
+                interest of the best Ultramarine Captain - which of course is I,
+                Cato Sicarius!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">More feedback here &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-news" id="section-news">
+        <div class="row">
+          <div class="news">
+            <div class="news__form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Subscribe for updates!</h2>
+              </div>
+              <form action="#" class="form">
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="yes"
+                      name="answer"
+                    />
+                    <label for="yes" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Bonus news!
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="no"
+                      name="answer"
+                    />
+                    <label for="no" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      No bonus news
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--blue">Next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <img srcset="img/sa" alt="" />
+          <img
+            srcset="img/ultra_da.png 1x, img/pngwing_white.png 2x"
+            alt="Full logo"
+            class="footer__logo"
+          />
+        </picture>
+      </div>
+      <p class="footer__copyright">
+        This is my Web "Ultramarines" Project in the Warhammer 40K universe
+        owned by
+        <a
+          href="https://www.games-workshop.com/"
+          target="_blank"
+          class="footer__c-link"
+          >GamesWorkshop</a
+        >. Everything here belongs to
+        <a
+          href="https://www.games-workshop.com/"
+          target="_blank"
+          class="footer__c-link"
+          >GamesWorkshop</a
+        >. This is only for practice and showcase!
+      </p>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/roboutte_pop.jpg" alt="roboutte" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-cards" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Roboute Guilliman
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Primarch of the Ultramarines Space Marine Legion
+          </h3>
+          <p class="popup__text">
+            Guilliman was a charismatic and gifted leader, beloved of his people
+            and singularly capable of compartmentalising incredible quantities
+            of information. He was an organiser, a logistician, one capable of
+            turning the wildest theories into practical reality and rendering
+            order from chaos.
+          </p>
+          <a
+            href="https://warhammer40k.fandom.com/wiki/Roboute_Guilliman#:~:text=Roboute%20Guilliman%20(pronounced%20Ruh%2DBOOT,its%20myriad%20subsequent%20Successor%20Chapters."
+            target="_blank"
+            class="btn btn--blue"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
